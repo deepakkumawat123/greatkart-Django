@@ -58,3 +58,7 @@ $(document).ready(function() {
 }); 
 // jquery end
 
+// Using an anonymous function
+setTimeout(function() {
+  $('#message').fadeout('slow')
+}, 2000);
